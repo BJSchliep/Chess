@@ -19,7 +19,7 @@ namespace ChessLogic
         public override Piece Copy()
         {
             Queen copy = new Queen(Color);
-            copy.HasMoved = HawMoved;
+            copy.HasMoved = HasMoved;
             return copy;
         }
     }

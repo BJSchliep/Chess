@@ -51,13 +51,13 @@ namespace ChessLogic
             for (int i = 0; i < 8; i++)
             {
                 this[1, i] = new Pawn(Player.Black);
-                this[7, i] = new Pawn(Player.White);
+                this[6, i] = new Pawn(Player.White);
             }
         }
 
         public static bool IsInside(Position pos)
         {
-            return pos.Row >= 0 && pos.row < 8 && pos.Column >= 0 && pos.Column < 8;    
+            return pos.Row >= 0 && pos.Row < 8 && pos.Column >= 0 && pos.Column < 8;    
         }
 
         public bool IsEmpty(Position pos)

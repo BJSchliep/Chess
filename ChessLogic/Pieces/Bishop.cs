@@ -20,7 +20,7 @@ namespace ChessLogic
         {
             Bishop copy = new Bishop(Color);
             copy.HasMoved = HasMoved;
-            return copy
+            return copy;
         }
     }
     

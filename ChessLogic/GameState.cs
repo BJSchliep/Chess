@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChessLogic
 {
-    Public class GameState
+    public class GameState
     {
         public Board Board { get; }
         public Player CurrentPlayer { get; }
