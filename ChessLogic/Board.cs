@@ -55,6 +55,14 @@ namespace ChessLogic
             }
         }
 
+        public static bool IsInside(Position pos)
+        {
+            return pos.Row >= 0 && pos.row < 8 && pos.Column >= 0 && pos.Column < 8;    
+        }
 
+        public bool IsEmpty(Position pos)
+        {
+            return this[pos] == null;
+        }
     }
 }
