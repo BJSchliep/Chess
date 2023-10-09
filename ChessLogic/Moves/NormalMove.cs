@@ -8,7 +8,7 @@ namespace ChessLogic
 {
     public class NormalMove : Move
     {
-        public override MoveType => MoveType.Normal;
+        public override MoveType Type => MoveType.Normal;
         public override Position FromPos { get; }
         public override Position ToPos { get; }
 

@@ -4,7 +4,7 @@
     {
         Normal,
         CastleKS,
-        CastleQA,
+        CastleQS,
         DoublePawn,
         EnPassant,
         PawnPromotion
